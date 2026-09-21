@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AngelHub Help",
   "colors": {
@@ -16,68 +17,70 @@
     "name": "Sign in",
     "url": "https://angelhub.net/login"
   },
-  "navigation": [
-    {
-      "group": "Getting started",
-      "pages": ["introduction"]
-    },
-    {
-      "group": "Admin",
-      "pages": [
-        "admin/setting-up-your-group",
-        "admin/inviting-members",
-        "admin/configuring-your-pipeline",
-        "admin/managing-billing"
-      ]
-    },
-    {
-      "group": "Assessor",
-      "pages": [
-        "assessor/what-is-the-assessor-role",
-        "assessor/reviewing-an-application",
-        "assessor/screening-framework",
-        "assessor/moving-to-pitch-ready"
-      ]
-    },
-    {
-      "group": "Project Lead",
-      "pages": [
-        "project-lead/what-is-the-project-lead-role",
-        "project-lead/taking-on-a-project",
-        "project-lead/running-a-dd",
-        "project-lead/using-angelai",
-        "project-lead/coordinating-work-packages"
-      ]
-    },
-    {
-      "group": "Angels",
-      "pages": [
-        "angels/your-role-as-an-angel",
-        "angels/reading-a-deal-summary",
-        "angels/using-angelai",
-        "angels/voting-on-a-deal"
-      ]
-    },
-    {
-      "group": "Entrepreneurs",
-      "pages": [
-        "entrepreneurs/submitting-your-application",
-        "entrepreneurs/what-happens-next",
-        "entrepreneurs/responding-to-questions"
-      ]
-    },
-    {
-      "group": "Reference",
-      "pages": [
-        "reference/coverage-map",
-        "reference/pipeline-stages",
-        "reference/angelai-confidence-levels",
-        "reference/eis-seis-basics",
-        "reference/glossary"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": ["introduction"]
+      },
+      {
+        "group": "Admin",
+        "pages": [
+          "admin/setting-up-your-group",
+          "admin/inviting-members",
+          "admin/configuring-your-pipeline",
+          "admin/managing-billing"
+        ]
+      },
+      {
+        "group": "Assessor",
+        "pages": [
+          "assessor/what-is-the-assessor-role",
+          "assessor/reviewing-an-application",
+          "assessor/screening-framework",
+          "assessor/moving-to-pitch-ready"
+        ]
+      },
+      {
+        "group": "Project Lead",
+        "pages": [
+          "project-lead/what-is-the-project-lead-role",
+          "project-lead/taking-on-a-project",
+          "project-lead/running-a-dd",
+          "project-lead/using-angelai",
+          "project-lead/coordinating-work-packages"
+        ]
+      },
+      {
+        "group": "Angels",
+        "pages": [
+          "angels/your-role-as-an-angel",
+          "angels/reading-a-deal-summary",
+          "angels/using-angelai",
+          "angels/voting-on-a-deal"
+        ]
+      },
+      {
+        "group": "Entrepreneurs",
+        "pages": [
+          "entrepreneurs/submitting-your-application",
+          "entrepreneurs/what-happens-next",
+          "entrepreneurs/responding-to-questions"
+        ]
+      },
+      {
+        "group": "Reference",
+        "pages": [
+          "reference/coverage-map",
+          "reference/pipeline-stages",
+          "reference/angelai-confidence-levels",
+          "reference/eis-seis-basics",
+          "reference/glossary"
+        ]
+      }
+    ]
+  },
   "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/angelgroup-ai"
+    "linkedin": "https://www.linkedin.com/company/angelhub.net"
   }
 }
