@@ -1,5 +1,6 @@
 {
-  "name": "AngelHub Help",
+  "theme": "mint",
+  "name": "AngelHub Help",  
   "logo": {
     "light": "/logo/angelhub-light.png",
     "dark": "/logo/angelhub-dark.png"
