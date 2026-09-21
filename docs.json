@@ -83,5 +83,17 @@
   "footerSocials": {
     "linkedin": "https://www.linkedin.com/company/angelhub.net"
   },
-  "description": "The AI native platform for Angel groups managing their funding process"
+  "description": "The AI native platform for Angel groups managing their funding process",
+  "icons": {
+    "library": "fontawesome"
+  },
+  "logo": {
+    "light": "/images/logo-angelhub-horizontal.svg",
+    "dark": "/images/Favicon-angelgroup-dark.svg",
+    "href": "https://angelhub.net"
+  },
+  "favicon": {
+    "light": "/images/Favicon-angelgroup-light.svg",
+    "dark": "/images/Favicon-angelgroup-dark.svg"
+  }
 }

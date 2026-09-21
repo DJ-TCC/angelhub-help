@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 160 160" width="100%" height="100%">
+    <rect x="20" y="20" width="160" height="160" fill="#0F1729" rx="35"/>
+    <circle cx="70" cy="100" r="40" fill="none" stroke="#534AB7" stroke-width="16"/>
+    <circle cx="100" cy="70" r="40" fill="none" stroke="#0F1729" stroke-width="24"/>
+    <circle cx="100" cy="70" r="40" fill="none" stroke="#1D9E75" stroke-width="16"/>
+    <circle cx="130" cy="100" r="40" fill="none" stroke="#0F1729" stroke-width="24"/>
+    <circle cx="130" cy="100" r="40" fill="none" stroke="#EF9F27" stroke-width="16"/>
+    <circle cx="100" cy="130" r="40" fill="none" stroke="#0F1729" stroke-width="24"/>
+    <circle cx="100" cy="130" r="40" fill="none" stroke="#0F1729" stroke-width="16"/>
+    <clipPath id="purple-clip">
+        <rect x="20" y="100" width="80" height="80"/>
+    </clipPath>
+    <circle cx="70" cy="100" r="40" fill="none" stroke="#0F1729" stroke-width="24" clip-path="url(#purple-clip)"/>
+    <circle cx="70" cy="100" r="40" fill="none" stroke="#534AB7" stroke-width="16" clip-path="url(#purple-clip)"/>
+</svg>
