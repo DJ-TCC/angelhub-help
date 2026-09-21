@@ -1,19 +1,10 @@
 {
   "theme": "mint",
-  "name": "AngelHub Help",  
-  "logo": {
-    "light": "/logo/angelhub-light.png",
-    "dark": "/logo/angelhub-dark.png"
-  },
-  "favicon": "/logo/favicon.png",
+  "name": "AngelHub Help",
   "colors": {
     "primary": "#534AB7",
     "light": "#7B74D4",
-    "dark": "#3D3590",
-    "anchors": {
-      "from": "#1D9E75",
-      "to": "#534AB7"
-    }
+    "dark": "#3D3590"
   },
   "topbarLinks": [
     {
@@ -25,19 +16,6 @@
     "name": "Sign in",
     "url": "https://angelhub.net/login"
   },
-  "tabs": [
-    {
-      "name": "Help Centre",
-      "url": "/"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Contact support",
-      "icon": "envelope",
-      "url": "mailto:hello@angelhub.net"
-    }
-  ],
   "navigation": [
     {
       "group": "Getting started",
