@@ -1,0 +1,23 @@
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const role = params.get('role');
+    if (!role) return;
+    const sectionMap = {
+      'admin': 'Admin',
+      'assessor': 'Assessor',
+      'project-lead': 'Project Lead',
+      'angels': 'Angels',
+      'entrepreneurs': 'Entrepreneurs',
+      'reference': 'Reference',
+    };
+    const sectionTitle = sectionMap[role];
+    if (!sectionTitle) return;
+    const navItems = document.querySelectorAll('nav a');
+    navItems.forEach(item => {
+      if (item.textContent && item.textContent.trim() === sectionTitle) {
+        item.scrollIntoView({ behaviour: 'smooth', block: 'center' });
+      }
+    });
+  })();
+</script>
