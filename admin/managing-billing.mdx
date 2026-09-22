@@ -1,6 +1,6 @@
 ---
 title: Managing billing
-description: How AngelHub billing works, how to add a payment card, and how the DD project charge is applied.
+description: How AngelHub billing works, how to add a payment card, and how charges are applied.
 ---
 
 ## Plans and pricing
@@ -8,6 +8,7 @@ description: How AngelHub billing works, how to add a payment card, and how the 
 | Feature / limit | Free | Pro | Scale |
 |---|---|---|---|
 | Monthly fee | £0 | £99/mo | £199/mo |
+| Annual fee | £0 | £990/yr | £1,990/yr |
 | Concurrent projects | 3 | 10 | Unlimited |
 | Angels per deal | 5 | Unlimited | Unlimited |
 | AI responses per month | 50 | 150 | Unlimited |
@@ -20,36 +21,42 @@ description: How AngelHub billing works, how to add a payment card, and how the 
 
 Included on every plan: applications and screening, document library, Q&A with entrepreneurs, AngelAI chat, cross-document consistency analysis, EIS/SEIS reference content, email notifications, and the full deal workflow through to close.
 
-All paid plans also incur a **£50 charge per project that reaches the Due Diligence stage**. The charge only applies when a pitch has been made, angels have expressed interest, and a lead investor has been appointed. Screened-and-declined projects incur no per-project fee.
+**Due diligence is available on every plan** at a flat £50 per project that reaches DD. The charge applies only when a pitch has been made, angels have expressed interest, and a lead investor has been appointed. Screened-and-declined projects incur no per-project fee.
 
 ## Annual billing
 
-All plans are available monthly or annually. **Annual billing gives you 2 months free** — the annual price is ten times the monthly price.
+Annual subscriptions are ten times the monthly price (Pro £990/yr, Scale £1,990/yr), giving two months free. Billing period — monthly or annual — is set when you start your subscription and is shown in your billing screen.
 
-## Adding a payment card
+## The group billing screen
 
-1. Go to **Settings → Billing**
-2. Click **Add payment card**
-3. Enter your card details in the secure Stripe payment form
-4. Click **Save card**
+Go to **Admin → Billing** to see:
 
-Your card details are stored securely by Stripe — AngelHub never stores card numbers directly.
+- Your current plan, billing period, and the date it started
+- The payment card on file (brand, last four digits, expiry) with an **Add card** / **Replace card** button
+- What you will be charged — the £50 DD project fee and, for Scale groups, any extra-administrator charges
+- Your full charge history, newest first
+
+No card details ever reach AngelHub's servers — cards are stored securely with Stripe.
+
+## Adding or replacing a payment card
+
+From the billing screen, click **Add card** or **Replace card** and enter your card details in the secure Stripe form. Your card is also captured automatically the first time a project moves to DD if no card is on file.
 
 ## The DD project charge
 
-When a project moves to Due Diligence, AngelHub shows you the project name, the £50 charge, and the last 4 digits of your card on file. Click **Accept** to proceed or **Decline** to keep the project at its current stage.
+When a project moves to Due Diligence, AngelHub shows you the project name, the £50 charge, and the last four digits of your card. Click **Accept** to proceed or **Decline** to leave the project at its current stage.
 
 <Note>
-If no card is on file when a project reaches DD, you will be prompted to add one before accepting the charge.
+If no card is on file, you will be prompted to add one before accepting the charge. This applies on all plans including Free.
 </Note>
 
-## Viewing your billing history
+## Extra Scale administrators
 
-All charges are listed in **Settings → Billing → Charge history**, including monthly subscription charges and DD project charges with their status.
+Scale includes 3 admins. Additional admins beyond 3 are charged at £10/month or £100/year each. Extra admin charges take effect from the first day of the following calendar month — no mid-month proration. The billing screen shows current admins, billable extras, any pending next-month quantity, and the effective date.
 
 ## Upgrading or downgrading
 
-Go to **Settings → Billing → Change plan**. Changes take effect immediately. Downgrading takes effect at the end of your current billing period.
+Contact AngelHub to change your plan. Downgrading takes effect at the end of your current billing period.
 
 <Warning>
 If you downgrade to Free, projects beyond the 3-project limit become read-only. No data is deleted — upgrade again at any time to restore full access.
@@ -57,4 +64,4 @@ If you downgrade to Free, projects beyond the 3-project limit become read-only. 
 
 ## Cancelling
 
-Go to **Settings → Billing → Cancel plan**. Your group moves to the Free plan at the end of your current billing period. Your data is available for export for 90 days after cancellation.
+Contact AngelHub to cancel. Your group moves to the Free plan at the end of your current billing period. Your data is available for export for 90 days after cancellation.
